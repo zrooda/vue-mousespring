@@ -1,0 +1,25 @@
+{
+  "name": "vue-mousespring",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystrdat/vue-mousespring.git"
+  },
+  "author": "mystrdat@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mystrdat/vue-mousespring/issues"
+  },
+  "homepage": "https://github.com/mystrdat/vue-mousespring#readme",
+  "dependencies": {
+    "lodash.clamp": "^4.0.3",
+    "lodash.throttle": "^4.1.1",
+    "vue": "^2.6.12",
+    "vue-motion": "^0.2.3"
+  }
+}
