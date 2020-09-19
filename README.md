@@ -8,7 +8,7 @@ A Vue component that uses `vue-motion` spring physics and mouse coordinates on t
 
 Includes a `mapRange` helper function to simplify adding motion based on the mouse coords.
 
-Root element size changes are automatically updated using a [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver).
+Root element size changes are automatically updated using a [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) and the `mousemove` event is throttled to 10ms intervals using `lodash.throttle`.
 
 ## Installation
 
