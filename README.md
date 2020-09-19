@@ -18,7 +18,7 @@ npm i --save mystrdat/vue-mousespring
 
 ```Vue
 <template>
-  <Motion v-slot="{ coords, mapRange }">
+  <MouseSpring v-slot="{ coords, mapRange }">
     <div class="container">
       <div
         class="something-else"
@@ -27,7 +27,7 @@ npm i --save mystrdat/vue-mousespring
         }"
       />
     </div>
-  </Motion>
+  </MouseSpring>
 </template>
 
 <script>
