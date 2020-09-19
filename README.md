@@ -23,7 +23,7 @@ npm i --save mystrdat/vue-mousespring
       <div
         class="something-else"
         :style="{
-          transform: `translateX(${mapRange(5, -5, coords.y)}px) translateY(${mapRange(-5, 5, coords.x)}px)`
+          transform: `translate(${mapRange(5, -5, coords.y)}px, ${mapRange(-5, 5, coords.x)}px)`
         }"
       />
     </div>
