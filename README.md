@@ -1,5 +1,7 @@
 # vue-mousespring
 
+![alt text](https://github.com/mystrdat/vue-mousespring/blob/docs/xorLVZl73W.gif)
+
 A Vue component that uses `vue-motion` spring physics and mouse coordinates on the layer to either:
 - Tilt an element passed as a slot child
 - Pass spring-smoothed mouse X/Y coordinates (range in 0 - 1) that you can access with [scoped-slots](https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots)
