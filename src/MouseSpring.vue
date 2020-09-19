@@ -36,7 +36,7 @@ export default {
     tilt: {
       type: Boolean,
       required: false,
-      default: false
+      default: true
     },
     defaultCoords: {
       type: Object,
